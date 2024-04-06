@@ -27,3 +27,17 @@ img {
         opacity: 0;
     }
 }
+
+.card.active {
+    transform: rotateY(0);
+}
+
+.card.active img {
+    opacity: 1;
+}
+
+.unmatch {
+    background-color: #f01c1c;
+    border-radius: 5px;
+    animation: 2s hideCard linear;
+}
